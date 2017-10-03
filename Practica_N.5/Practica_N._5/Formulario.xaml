@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica_N._5.Formulario">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Grid.ColumnSpan="2"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Grid.ColumnSpan="2"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Grid.ColumnSpan="2"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Grid.ColumnSpan="2"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalOptions="Center" HorizontalOptions="Center">DATOS PERSONALES</Label>
+            <Label Grid.Column="0" Grid.Row="1" VerticalOptions="Center">Nombre</Label>
+            <Label Grid.Column="0" Grid.Row="2" VerticalOptions="Center">Apellidos:</Label>
+            <Label Grid.Column="0" Grid.Row="3" VerticalOptions="Center">Direccion:</Label>
+            <Label Grid.Column="0" Grid.Row="4" VerticalOptions="Center">Telefono</Label>
+            <Label Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" VerticalOptions="Center" HorizontalOptions="Center">DATOS ESCOLARES</Label>
+            <Label Grid.Column="0" Grid.Row="6" VerticalOptions="Center">Carrera</Label>
+            <Label Grid.Column="0" Grid.Row="7" VerticalOptions="Center">Semestre</Label>
+            <Label Grid.Column="0" Grid.Row="8" VerticalOptions="Center">Matricula</Label>
+            <Label Grid.Column="0" Grid.Row="9" Grid.ColumnSpan="2" VerticalOptions="Center" HorizontalOptions="Center">DATOS SOCIALES:</Label>
+            <Label Grid.Column="0" Grid.Row="10" VerticalOptions="Center">Correo</Label>
+            <Label Grid.Column="0" Grid.Row="11" VerticalOptions="Center">GitHub</Label>
+
+
+            <Entry Grid.Column="1" Grid.Row="1" x:Name="Nombre"></Entry>
+            <Entry Grid.Column="1" Grid.Row="2" x:Name="Apellidos"></Entry>
+            <Entry Grid.Column="1" Grid.Row="3" x:Name="Direccion"></Entry>
+            <Entry Grid.Column="1" Grid.Row="4" x:Name="Telefono"></Entry>
+            <Entry Grid.Column="1" Grid.Row="6" x:Name="Carrera"></Entry>
+            <Entry Grid.Column="1" Grid.Row="7" x:Name="Semestre"></Entry>
+            <Entry Grid.Column="1" Grid.Row="8" x:Name="Matricula"></Entry>
+            <Entry Grid.Column="1" Grid.Row="10" x:Name="Correo"></Entry>
+            <Entry Grid.Column="1" Grid.Row="11" x:Name="Git_Hub"></Entry>
+            <Button Grid.Column="0" Grid.Row="12" Grid.ColumnSpan="2" VerticalOptions="Center" HorizontalOptions="Center" Text="Enviar datos" Clicked="Button_Clicked_1"></Button>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
